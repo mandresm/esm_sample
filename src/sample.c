@@ -8,7 +8,7 @@ main (void)
 {
   printf ("Hello, world!\n");
 
-  char myStrings[][10] = { "analysis_work", "bin_work", "config_work", "couple_work", "forcing_work", "input_work", "log_work", "mon_work", "outdata_work", "restart_work", "scripts_work", "unknown_work", "viz_work", "work_work"};
+  char myStrings[][14] = { "analysis_work", "bin_work", "config_work", "couple_work", "forcing_work", "input_work", "log_work", "mon_work", "outdata_work", "restart_work", "scripts_work", "unknown_work", "viz_work", "work_work"};
 
   size_t i = 0;
   for( i = 0; i < sizeof(myStrings) / sizeof(myStrings[0]); i++)
